@@ -1,0 +1,94 @@
+:root {
+  --dark-blue-1: #002A48;
+  --dark-blue-2: #003459;
+  --dark-blue-3: #00528C;
+  --dark-blue-4: #0078CD;
+
+  --mon-yellow-1: #EEC77E;
+  --mon-yellow-2: #F1D092;
+  --mon-yellow-3: #F7DBA7;
+  --mon-yellow-4: #FCEED5;
+
+  --pink-red: #FF564F;
+  --green-light: #34C759;
+  --orange-shine: #FF912C;
+  --blue-sea: #00A7E7;
+
+  --neutral-color-100: #00171F;
+  --neutral-color-80: #242B33;
+  --neutral-color-60: #667479;
+  --neutral-color-40: #99A2A5;
+  --neutral-color-20: #CCD1D2;
+  --neutral-color-10: #EBEEEF;
+  --neutral-color-00: #FDFDFD;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "SVN-Gilroy";
+}
+
+body {
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+
+header {
+  color: var(--neutral-color-100);
+
+  background-color: transparent;
+  padding: .8438rem .625rem;
+  margin: 0 auto;
+  width: 100%;
+  /* height: auto; */
+}
+
+header .desktop {
+  display: none;
+}
+
+header .mobile {
+  margin: 0 auto;
+  border-radius: 0rem 0px 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8438rem 10px;
+  gap: 2.75rem;
+  position: relative;
+
+  max-width: 25.875rem;
+
+  height: 3.5625rem;
+}
+
+header .mobile button {
+  background-color: transparent;
+  border: none;
+}
+
+body ::before {
+  content: "";
+  position: absolute;
+  width: 39.6875rem;
+  height: 39.6875rem;
+  left: -21.75rem;
+  top: -41.9375rem;
+  background: #F7DBA7;
+  border-radius: 3.8125rem;
+  transform: rotate(19.42deg);
+  z-index: -1;
+
+
+
+}
+
+.hero-section {
+  background-color: transparent;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
