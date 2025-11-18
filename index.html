@@ -13,14 +13,6 @@
 </head>
 <body>
     <header>
-        <!-- <div class="empty"></div> -->
-        <div class="rectangle-1"></div>
-        <div class="rectangle-2"></div>
-        <div class="rectangle-3"></div>
-        <div class="rectangle-4"></div>
-        <div class="rectangle-5"></div>
-        <div class="rectangle-6"></div>
-    
         <div class="mobile">
             <button class="menu-toggle">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,30 +78,43 @@
             </div>
     
         </div>
-
-        <div class="header-contents">
-            <div class="text-content">
-                <h1>one more friend</h1>
-                <h3>thousands more fun</h3>
-                <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+
-                different pets that can meet your needs!</p>
-                <div class="buttons">
-                    <button class="any-button view">view intro
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 9V15L15 12L10 9Z" fill="#003459" stroke="#003459" stroke-width="1.5" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-
-                    </button>
-                    <button class="any-button explore">explore now</button>
+        <div class="header-wrapper">
+            <!-- <div class="empty"></div> -->
+            <div class="rectangle-1"></div>
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+            <div class="rectangle-4"></div>
+            <div class="rectangle-5"></div>
+            <div class="rectangle-6"></div>
+        
+        
+        
+            <div class="header-contents">
+                <div class="text-content">
+                    <h1>one more friend</h1>
+                    <h3>thousands more fun</h3>
+                    <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have
+                        fun. We have 200+
+                        different pets that can meet your needs!</p>
+                    <div class="buttons">
+                        <button class="any-button view">view intro
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 9V15L15 12L10 9Z" fill="#003459" stroke="#003459" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+        
+                        </button>
+                        <button class="any-button explore">explore now</button>
+                    </div>
                 </div>
+                <div class="image-content"></div>
             </div>
-            <div class="image-content"></div>
         </div>
     </header>
     <main>
         <section class="whats-new">
-            <div class="whats-new-header">
+            <div class="whats-new-wrapper">
+                <div class="whats-new-header">
                 <div class="whats-new-header-text">
                     <h1>Whats new?</h4>
                     <h2>take a look at some of our pets</h2>
@@ -260,9 +265,12 @@
                     <path d="M10 8L14 12L10 16" stroke="#003459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </button>
+            </div>
+            
         </section>
         <section class="one-more-friend">
-            <div class="banner">
+            <div class="one-more-friend-wrapper">
+                <div class="banner">
                 <div class="rectangle-7"></div>
                 <div class="rectangle-8"></div>
                  <img src="assets/one-more-friend-images/woman-with-dog-2.svg"/>
@@ -284,12 +292,15 @@
                     </div>
                  </div>
             </div>
+            </div>
+            
         </section>
         <section class="our-products">happy happy happy</section>
         <section class="pet-sellers">happy happy happy happy</section>
         <section class="adoption">happy happy happy happy happy</section>
         <section class="usefull-knowlege">
-            <div class="whats-new-header">
+            <div class="usefull-knowlege-wrapper">
+                <div class="whats-new-header">
                 <div class="whats-new-header-text">
                     <h1>You already know?</h1>
                     <h2>useful pet knowledge</h2>
@@ -336,11 +347,22 @@
                     <path d="M10 8L14 12L10 16" stroke="#003459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </button>
+            </div>
+            
         </section>
     </main>
     <footer>
         <div class="footer-wrapper">
-            <div class="rigester"></div>
+            <div class="footer-content">
+                <div class="rigester">
+                <h1>Register now so you don't miss our programs</h1>
+                <div class="subscribe-form">
+                    <div class="subscribe-bar">
+                        <input placeholder="Enter your Email"/>
+                    </div>
+                    <button class="subscribe-bar button">Subscribe Now</button>
+                </div>
+            </div>
             <div class="links-container">
                 <nav>
                     <a href="#">Home</a>
@@ -362,7 +384,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                    </a>=
+                    </a>
                     <a href="#">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -403,7 +425,8 @@
                 </nav>
                 <!-- <div class="social-media"></div> -->
             </div>
-            <hr/>
+            </div>
+            
             <div class="additional-info">
                 <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_46_480)">
@@ -481,10 +504,10 @@
                     </defs>
                 </svg>
                 <nav>
-                    <a href="#">terms of service</a>
-                    <a href="#">privacy policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
                 </nav>
-                <span>&comp; 2022. ALl rights reserved.</span>
+                <span>&copy; 2022. ALl rights reserved.</span>
             </div>
         </div>
     </footer>
