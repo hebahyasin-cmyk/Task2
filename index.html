@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monito Homepage</title>
-    <meta name="description" content="">
+    <meta name="description" content="online pets shop website">
     <meta name="author" content="Hebah Yasin">
     <meta name="keywords" content="monito">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-<link href="https://fonts.googleapis.com/css2?family=SVN-Gilroy&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -79,7 +77,9 @@
     
         </div> -->
         <div class="header-wrapper">
+             <!-- To help me in the design -->
             <div class="empty"></div>
+             <!-- Background decorative shapes -->
             <div class="rectangle-1"></div>
             <div class="rectangle-3"></div>
             <div class="rectangle-2"></div>
@@ -89,14 +89,18 @@
             <div class="rectangle-11"></div>
             <div class="rectangle-12"></div>
 
+            <!-- Mobile Header -->
             <div class="mobile">
+                <!-- Hamburger menu -->
                 <button class="menu-toggle">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.6665 22.6667H25.3332M6.6665 16H25.3332M6.6665 9.33334H25.3332" stroke="#00171F" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </button>
+                <!-- Logo -->
                 <img src="assets/header-images/logo.svg" class="logo" />
+                <!-- Search button -->
                 <button class="search">
                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -105,9 +109,10 @@
                     </svg>
                 </button>
             </div>
-
+             <!-- Desktop Header -->
             <div class="desktop">
                 <div class="desktop-header-container">
+                    <!-- Left: Logo + Navigation -->
                     <div class="left">
                         <img src="assets/header-images/logo.svg" class="logo" />
                         <nav>
@@ -117,6 +122,7 @@
                             <a href="#">Contact</a>
                         </nav>
                     </div>
+                     <!-- Right: Search + Button + Currency Selector -->
                     <div class="right">
                         <div class="search-box">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +133,7 @@
             
                             <input placeholder="search something here!" />
                         </div>
-                        <button class="any-button">Join the community</button>
+                        <button class="any-button join">Join the community</button>
                         <div class="currency-selector">
                             <div class="currency-selector-flag">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,9 +161,7 @@
                 </div>
             
             </div>
-        
-        
-        
+             <!-- Main headline or hero section -->
             <div class="header-contents">
                 <div class="text-content">
                     <h1>one more friend</h1>
@@ -181,163 +185,164 @@
         </div>
     </header>
     <main>
-        <section class="whats-new">
-            <div class="whats-new-wrapper">
+        <section class="section-layout whats-new">
+            <div class="section-wrapper whats-new-wrapper">
                 <div class="whats-new-header">
-                <div class="whats-new-header-text">
-                    <h1>Whats new?</h4>
-                    <h2>take a look at some of our pets</h2>
+                    <div class="whats-new-header-text">
+                        <h1>Whats new?</h4>
+                            <h2>take a look at some of our pets</h2>
+                    </div>
+                    <button class="any-button view-more"> view more</button>
+            
                 </div>
-                <button class="any-button view-more"> view more</button>
-                
-            </div>
-            <div class="card-grid">
-                <div class="card">
-                    <img src="assets/whats-new-images/image-1.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-1.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO231 - Pomeranian</span>
+                                    <span>White</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
                             </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
+                            <div class="card-price">6.900.000 vnd</div>
                         </div>
-                        <div class="card-price">6.900.000 vnd</div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-2.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO502 - Poodle Tiny</span>
+                                    <span>Yello</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">3.900.000 vnd</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-3.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO102 - Poodle Tiny</span>
+                                    <span>Sepia</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">4.000.000 vnd</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-4.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO512 - Alaskan Malamute</span>
+                                    <span>Grey</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">8.900.000 VND</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-5.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO231 - Pembroke Corgi</span>
+                                    <span>Cream</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">7.900.000 VND</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-6.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO502 - Pembroke Corgi</span>
+                                    <span>Tricolor</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">9.000.000 vnd</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-7.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO231 - Pomeranian</span>
+                                    <span>White</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>female</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">6.500.000 vnd</div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="assets/whats-new-images/image-8.svg" />
+                        <div class="card-text">
+                            <div class="card-info">
+                                <div class="card-info-1">
+                                    <span>MO231 - Pomeranian</span>
+                                    <span>White</span>
+                                </div>
+                                <div class="card-info-2">
+                                    <span>gene: <span>male</span></span>
+                                    <span>age: <span>02 months</span></span>
+                                </div>
+                            </div>
+                            <div class="card-price">6.900.000 vnd</div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-2.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-3">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-3.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-3">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-4.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-5.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-6.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-7.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/whats-new-images/image-8.svg" />
-                    <div class="card-text">
-                        <div class="card-info">
-                            <div class="card-info-1">
-                                <span>MO231 - Pomeranian</span>
-                                <span>White</span>
-                            </div>
-                            <div class="card-info-2">
-                                <span>gene: <span>male</span></span>
-                                <span>age: <span>02 months</span></span>
-                            </div>
-                        </div>
-                        <div class="card-price">6.900.000 vnd</div>
-                    </div>
-                </div>
-            </div>
-            <button class="any-button view-more mobile">
-                view more
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 8L14 12L10 16" stroke="#003459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-            </button>
+                <button class="any-button view-more mobile">
+                    view more
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 8L14 12L10 16" stroke="#003459" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
             </div>
         </section>
-        <section class="one-more-friend">
-            <div class="one-more-friend-wrapper">
+        <section class="section-layout one-more-friend">
+            <div class="section-wrapper one-more-friend-wrapper">
                 <div class="banner">
                 <div class="rectangle-7"></div>
                 <div class="rectangle-8"></div>
@@ -362,8 +367,8 @@
             </div>
             </div>
         </section>
-        <section class="our-products">
-            <div class="whats-new-wrapper">
+        <section class="section-layout our-products">
+            <div class="section-wrapper whats-new-wrapper">
                 <div class="whats-new-header">
                     <div class="whats-new-header-text">
                         <h1>Hard to choose right products for your pets?</h4>
@@ -805,8 +810,8 @@
                 </div>
             </div>
         </section>
-        <section class="pet-sellers">
-            <div class="pet-sellers-wrapper">
+        <section class="section-layout pet-sellers">
+            <div class="section-wrapper pet-sellers-wrapper">
                 <div class="pet-sellers-header">
                     <h1>Proud to be part of <span>Pet Sellers</span></h1>
                     <button class="any-button view-more"> view all our sellers</button>
@@ -843,8 +848,8 @@
                 </div>
             </div>
         </section>
-        <section class="adoption">
-            <div class="section-wrapper">
+        <section class="section-layout adoption">
+            <div class="section-wrapper adoption-wrapper">
                 <div class="banner">
                     <div class="rectangle-9"></div>
                     <div class="rectangle-10"></div>
@@ -879,8 +884,8 @@
                 </div>
             </div>
             </section>
-        <section class="usefull-knowlege">
-            <div class="usefull-knowlege-wrapper">
+        <section class="section-layout usefull-knowlege">
+            <div class="section-wrapper usefull-knowlege-wrapper">
                 <div class="whats-new-header">
                 <div class="whats-new-header-text">
                     <h1>You already know?</h1>
@@ -895,7 +900,7 @@
                     <div class="card-content">
                         <div class="card-flag">pet knowledge</div>
                         <span class="card-title">What is a Pomeranian? How to Identify Pomeranian Dogs</span>
-                        <span class="card-description">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the
+                        <span class="card-description  truncate-overflow">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the
                         small, lovely, smart, friendly, and skillful circus dog breed.</span>
                     </div>
                 </div>
@@ -904,10 +909,8 @@
                     <img src="assets/useful-knowledge-images/image-2.svg" />
                     <div class="card-content">
                         <div class="card-flag">pet knowledge</div>
-                        <span class="card-title">What is a Pomeranian? How to Identify Pomeranian Dogs</span>
-                        <span class="card-description">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of
-                            the cutest pets. Not only that, the
-                            small, lovely, smart, friendly, and skillful circus dog breed.</span>
+                        <span class="card-title">Dog Diet You Need To Know</span>
+                        <span class="card-description truncate-overflow">Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance.</span>
                     </div>
                 </div>
 
@@ -915,10 +918,8 @@
                     <img src="assets/useful-knowledge-images/image-3.svg" />
                     <div class="card-content">
                         <div class="card-flag">pet knowledge</div>
-                        <span class="card-title">What is a Pomeranian? How to Identify Pomeranian Dogs</span>
-                        <span class="card-description">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of
-                            the cutest pets. Not only that, the
-                            small, lovely, smart, friendly, and skillful circus dog breed.</span>
+                        <span class="card-title">Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively</span>
+                        <span class="card-description truncate-overflow">Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog.</span>
                     </div>
                 </div>
             </div>
@@ -928,7 +929,7 @@
         </section>
     </main>
     <footer>
-        <div class="footer-wrapper">
+        <div class="section-wrapper footer-wrapper">
             <div class="footer-content">
                 <div class="rigester">
                 <h1>Register now so you don't miss our programs</h1>
@@ -996,15 +997,14 @@
                                 d="M19.8008 6C19.8008 6 19.6055 4.62109 19.0039 4.01563C18.2422 3.21875 17.3906 3.21484 17 3.16797C14.2031 2.96484 10.0039 2.96484 10.0039 2.96484H9.99609C9.99609 2.96484 5.79688 2.96484 3 3.16797C2.60938 3.21484 1.75781 3.21875 0.996094 4.01563C0.394531 4.62109 0.203125 6 0.203125 6C0.203125 6 0 7.62109 0 9.23828V10.7539C0 12.3711 0.199219 13.9922 0.199219 13.9922C0.199219 13.9922 0.394531 15.3711 0.992187 15.9766C1.75391 16.7734 2.75391 16.7461 3.19922 16.832C4.80078 16.9844 10 17.0313 10 17.0313C10 17.0313 14.2031 17.0234 17 16.8242C17.3906 16.7773 18.2422 16.7734 19.0039 15.9766C19.6055 15.3711 19.8008 13.9922 19.8008 13.9922C19.8008 13.9922 20 12.375 20 10.7539V9.23828C20 7.62109 19.8008 6 19.8008 6ZM7.93359 12.5938V6.97266L13.3359 9.79297L7.93359 12.5938Z"
                                 fill="#00171F" />
                         </svg>
-
                     </a>
                 </nav>
-                <!-- <div class="social-media"></div> -->
             </div>
             </div>
             
             <div class="additional-info">
-                <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="footer-logo">
+                    <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_46_480)">
                         <path
                             d="M32.569 32.6313C33.2112 32.6313 33.7428 32.8488 34.1691 33.2784C34.606 33.7081 34.8166 34.2438 34.8166 34.8802C34.8166 35.5167 34.606 36.0418 34.1691 36.482C33.7428 36.9116 33.2112 37.1291 32.569 37.1291H31.1847V39.4735H30.0688V32.6367H32.569V32.6313ZM32.569 36.0683C33.227 36.0683 33.7007 35.5697 33.7007 34.8749C33.7007 34.1801 33.227 33.6815 32.569 33.6815H31.1847V36.063H32.569V36.0683Z"
@@ -1079,14 +1079,14 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <nav>
+                </div>
+                <nav class="footer-links">
                     <a href="#">Terms of Service</a>
                     <a href="#">Privacy Policy</a>
                 </nav>
-                <span>&copy; 2022. ALl rights reserved.</span>
+                <span class="footer-licance">&copy; 2022. ALl rights reserved.</span>
             </div>
         </div>
     </footer>
-	
 </body>
 </html>
