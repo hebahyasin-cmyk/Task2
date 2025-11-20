@@ -190,6 +190,7 @@ body {
   font-weight: 700;
 }
 .explore {
+  font-weight: 700;
   background-color: var(--dark-blue-2);
   color: var(--neutral-color-00);
   width: 10.1875rem;
@@ -391,13 +392,13 @@ header .rectangle-12{
   display: none;
   z-index: 0;
   position: absolute;
-  width: 635px;
-  height: 635px;
+  width: 39.6875rem;
+  height: 39.6875rem;
   left: 0%;
   top: 97%;
   background: var(--mon-yellow-3);
   opacity: 0.4;
-  border-radius: 99px;
+  border-radius: 6.1875rem;
   transform: rotate(56.47deg);
 }
 
@@ -547,7 +548,7 @@ header .mobile button {
 
 header .header-contents {
   z-index: 1;
-  width: 100%;
+  max-width: 50rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -599,10 +600,9 @@ header .header-contents .text-content .buttons {
 }
 
 header .header-contents .image-content {
-  flex-grow: 1;
   background: url(assets/header-images/woman-with-dog.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   height: 23.75rem;
 }
 
@@ -695,8 +695,7 @@ header .header-contents .image-content img {
 }
 
 .card .card-info-1 {
-  display: inline-block;
-  width: 159px;
+  width: 9.9375rem;
   font-weight: 700;
   font-size: .875rem;
   line-height: 1.25rem;
@@ -1314,6 +1313,8 @@ footer .footer-wrapper .rigester {
 
   header .header-contents {
     flex-direction: row;
+    max-width: 90rem;
+    width: 100%;
   }
 
   header .header-contents .text-content {
@@ -1349,7 +1350,8 @@ footer .footer-wrapper .rigester {
   header .header-contents .image-content {
     height: 37.1875rem;
     background-size: 59rem 43.3125rem;
-    background-position: center top;
+    background-position: 77% 0%;
+    width: 50%;
   }
 
 
@@ -1423,7 +1425,7 @@ footer .footer-wrapper .rigester {
 
 
   .card .card-info-1 {
-    flex-direction: row;
+    width:100%;
     font-size: 1rem;
     line-height: 1.5rem;
     gap: .375rem;
